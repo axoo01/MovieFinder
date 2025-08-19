@@ -1,6 +1,9 @@
-# Movie Finder
+# Movie Finder Web App
 
 A responsive web application that dynamically fetches movies from TMDB and tracks trending searches. Built with React.js and Tailwind CSS, it features optimized search with debounce, a trending section based on user search activity, and seamless API integration.
+
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Site-1B263B?style=for-the-badge&logo=netlify&logoColor=white)](https://moviefinder.netlify.app/)
+
 
 ## Features
 
@@ -14,12 +17,8 @@ A responsive web application that dynamically fetches movies from TMDB and track
 
 ## Tech Stack
 
-**Frontend:** React.js, Tailwind CSS
+**Frontend:** React.js & Tailwind CSS
 
-**Backend:** Node.js (for custom search tracking API)
+**Backend / Database:** Appwrite (Database + API)
 
-**Database:** Any SQL/NoSQL backend used for storing search queries
-
-## Demo
-
-Live Demo
+**API Integration:** TMDB API & Appwrite API
