@@ -1,12 +1,25 @@
-# React + Vite
+# Movie Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for discovering movies dynamically, built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic API Integration:** Fetches movie data from TMDB API to display current titles and details.
 
-## Expanding the ESLint configuration
+- **Trending Search Tracking:** User search queries are saved via a custom API and database, powering a trending movies section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Optimized Search:** Debounced search reduces API calls, enhancing performance and minimizing server load.
+
+- **Responsive Design:** Mobile-first layout with smooth UI interactions for all devices.
+
+## Tech Stack
+
+**Frontend:** React.js, Tailwind CSS
+
+**Backend:** Node.js (for custom search tracking API)
+
+**Database:** Any SQL/NoSQL backend used for storing search queries
+
+Demo
+
+Live Demo
