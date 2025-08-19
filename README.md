@@ -1,6 +1,6 @@
 # Movie Finder
 
-A responsive web application for discovering movies dynamically, built with React.js and Tailwind CSS.
+A responsive web application that dynamically fetches movies from TMDB and tracks trending searches. Built with React.js and Tailwind CSS, it features optimized search with debounce, a trending section based on user search activity, and seamless API integration.
 
 ## Features
 
@@ -20,6 +20,6 @@ A responsive web application for discovering movies dynamically, built with Reac
 
 **Database:** Any SQL/NoSQL backend used for storing search queries
 
-Demo
+## Demo
 
 Live Demo
