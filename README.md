@@ -2,7 +2,7 @@
 
 A responsive web application that dynamically fetches movies from TMDB and tracks trending searches. Built with React.js and Tailwind CSS, it features optimized search with debounce, a trending section based on user search activity, and seamless API integration.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo🎬-Visit%20Site-1B263B?style=for-the-badge)](https://moviefinder.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🎬%20Live%20Demo-Visit%20Site-1B263B?style=for-the-badge)](https://moviefinder.netlify.app/)
 
 
 
